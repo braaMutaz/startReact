@@ -16,6 +16,7 @@ import About from './About/About';
     {path:'portfolio' , element:<Portfolio/>},
     {path:'contact' , element:<Contact/>},
     {path:'About' , element:<About/>},
+    {path:'*' , element:<Home/>},
   ]}
 ])
 
